@@ -1,0 +1,51 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  background-color: whitesmoke;
+
+  color: darkslategray;
+}
+
+ul {
+  padding: 0;
+  max-width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+h1,
+h2 {
+  margin: 20px;
+  text-align: center;
+}
+
+img {
+  width: 600px;
+  border: none;
+  border-radius: 10px;
+}
+
+.heading {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.subheading {
+  font-weight: 400;
+}
+
+.websites {
+  display: block;
+  margin: 0 auto;
+  margin: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
