@@ -27,7 +27,15 @@ h2 {
   text-align: center;
 }
 
-img {
+.bio {
+  display: block;
+  margin: 0 auto;
+  max-width: 40%;
+  text-align: center;
+  font-weight: 400;
+}
+
+.website-img {
   width: 600px;
   border: none;
   border-radius: 10px;
@@ -48,4 +56,21 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
+}
+
+.category-heading {
+  margin-left: 40px;
+  font-size: 30px;
+  font-weight: 600px;
+}
+
+.cert-img {
+  width: 400px;
+}
+
+.cert-gallery {
+  margin-left: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
 }
